@@ -46,11 +46,11 @@ chmod +x ./build
 sudo ./build
 cd
 rm -rf zlib-1.2.11 install
-wget http://cdn.npm.taobao.org/dist/node/v8.9.4/node-v8.9.4-linux-armv7l.tar.xz
-tar -xvf node-v8.9.4-linux-armv7l.tar.xz
+wget http://cdn.npm.taobao.org/dist/node/latest/node-v9.4.0-linux-armv7l.tar.xz
+tar -xvf node-v9.4.0-linux-armv7l.tar.xz
 mkdir app
-mv node-v8.9.4-linux-armv7l /root/app/node
+mv node-v9.4.0-linux-armv7l /root/app/node
 echo "export PATH=/root/app/node/bin:$PATH" >> ~/.bashrc && source ~/.bashrc
 ln -s /root/app/node/bin/node /usr/local/bin/node
 ln -s /root/app/node/bin/npm /usr/local/bin/npm
-rm node-v8.9.4-linux-armv7l.tar.xz zlib-1.2.11.tar.gz
+rm node-v9.4.0-linux-armv7l.tar.xz zlib-1.2.11.tar.gz
