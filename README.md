@@ -2,7 +2,7 @@
 
 sudo apt-get install git -y
 
-git clone https://github.com/dietpi/install.git
+git clone https://github.com/nanodate/install.git
 
 cd install
 
