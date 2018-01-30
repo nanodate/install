@@ -18,13 +18,17 @@ update-alternatives --auto python
 python --version
 sudo apt-get install python3-pip -y
 sudo apt-get install python3.4-dev -y
-sudo apt-get install libevent-dev -y
+sudo apt-get install libevent-dev -y 
 sudo apt-get install gcc -y
 sudo apt-get install g++ -y
 sudo apt-get install make -y
-sudo pip3 install NetEase-MusicBox
+sudo apt-get install python3-lxml -y
+git clone https://github.com/darknessomi/musicbox.git
+cd musicbox
+python3 setup.py install
 sudo apt-get install mpg123 -y
 cd
+rm -rf musicbox
 wget http://zlib.net/zlib-1.2.11.tar.gz
 tar -xvzf zlib-1.2.11.tar.gz
 cd zlib-1.2.11
