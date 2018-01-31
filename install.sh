@@ -17,7 +17,7 @@ sudo apt-get install --reinstall python-minimal python-lockfile -y
 update-alternatives --auto python
 python --version
 sudo apt-get install python3-pip -y
-sudo apt-get install python3.4-dev -y
+sudo apt-get install python3.5-dev -y
 sudo apt-get install libevent-dev -y 
 sudo apt-get install gcc -y
 sudo apt-get install g++ -y
