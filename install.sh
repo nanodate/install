@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get install python3 -y
-update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
+update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
 python --version
 if [ -e "/usr/bin/python2.7" ]; then
  echo 已安装python 2.7.9
